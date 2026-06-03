@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Phone fix &amp; Vapes West Ealing</title>
+    <meta name="description" content="West Ealing's premium tech repair and vape storefront. Screen repair, battery replacement, unlocked phones, Lost Mary, and Elfbar in store.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">PHONE FIX <span class="primary-text">&amp; VAPES</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-trigger">Repairs <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="screen-repair.html">Screen Repair</a></li>
+                        <li><a href="battery-replacement.html">Battery Replacement</a></li>
+                        <li><a href="water-damage.html">Water Damage</a></li>
+                        <li><a href="charging-port.html">Charging Port Repair</a></li>
+                        <li><a href="phone-unlocking.html">Phone Unlocking</a></li>
+                        <li><a href="laptop-tablet.html">Laptop &amp; Tablet Repair</a></li>
+                    </ul>
+                </li>
+                <li><a href="vapes-pouches.html">Vapes &amp; Pouches</a></li>
+                <li><a href="phones-in-store.html">Phones</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="tel:07399440825" class="btn-nav-cta"><i class="fa-solid fa-phone"></i> Call Now</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.95)), url('repair-hero.jpg');">
+        <div class="container hero-grid">
+            <div class="hero-content reveal">
+                <span class="eyebrow"><i class="fa-solid fa-screwdriver-wrench"></i> Fast Tech Repairs &amp; Premium Vapes</span>
+                <h1>Reliable Repairs. <br>Right Here in <span class="primary-text">West Ealing</span>.</h1>
+                <p class="hero-tagline">We fix cracked screens, dead batteries, and liquid damage while you wait. We also carry Ealing's widest selection of premium vapes and nicotine pouches.</p>
+                <div class="hero-btns">
+                    <a href="tel:07399440825" class="btn btn-primary">Call: 07399 440 825</a>
+                    <a href="#services" class="btn btn-outline">See Repairs &darr;</a>
+                </div>
+                <div class="walk-ins-tag">
+                    <span class="badge"><i class="fa-solid fa-bolt"></i> Same-Day Repairs</span>
+                    <span class="badge"><i class="fa-solid fa-truck"></i> Deliveroo Available</span>
+                    <span class="badge"><i class="fa-solid fa-star"></i> 4.9 Stars on Google</span>
+                </div>
+            </div>
+            <div class="hero-image-wrapper reveal">
+                <div class="hero-image-frame" onclick="openLightbox('storefront-exterior.webp', 'Phone fix & Vapes storefront in West Ealing')">
+                    <img src="storefront-exterior.webp" alt="Phone fix & Vapes Storefront" class="hero-image">
+                    <div class="frame-overlay">
+                        <i class="fa-solid fa-magnifying-glass-plus"></i>
+                        <span>View Storefront</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2>What We Fix</h2>
+                <p class="subheading">Click a service to find out more — most repairs completed in under 30 minutes.</p>
+                <div class="accent-divider"></div>
+            </div>
+            
+            <div class="services-grid reveal">
+                <!-- Screen Repair -->
+                <a href="screen-repair.html" class="service-card-link">
+                    <div class="service-card" style="background-image: linear-gradient(rgba(17, 17, 17, 0.45), rgba(17, 17, 17, 0.75)), url('cracked-screen.jpg');">
+                        <div class="card-content">
+                            <h3>Screen Repair</h3>
+                            <p>Cracked, shattered or dead display — restored.</p>
+                            <span class="learn-more">Learn More &rarr;</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Battery Replacement -->
+                <a href="battery-replacement.html" class="service-card-link">
+                    <div class="service-card" style="background-image: linear-gradient(rgba(17, 17, 17, 0.45), rgba(17, 17, 17, 0.75)), url('battery-repair.jpg');">
+                        <div class="card-content">
+                            <h3>Battery Replacement</h3>
+                            <p>Draining fast or not charging? We'll fix that.</p>
+                            <span class="learn-more">Learn More &rarr;</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Water Damage -->
+                <a href="water-damage.html" class="service-card-link">
+                    <div class="service-card" style="background-image: linear-gradient(rgba(17, 17, 17, 0.45), rgba(17, 17, 17, 0.75)), url('water-damage.jpg');">
+                        <div class="card-content">
+                            <h3>Water Damage</h3>
+                            <p>Don't panic — bring it in fast and we can help.</p>
+                            <span class="learn-more">Learn More &rarr;</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Charging Port -->
+                <a href="charging-port.html" class="service-card-link">
+                    <div class="service-card" style="background-image: linear-gradient(rgba(17, 17, 17, 0.45), rgba(17, 17, 17, 0.75)), url('charging-port.jpg');">
+                        <div class="card-content">
+                            <h3>Charging Port</h3>
+                            <p>Loose connection or won't charge at all — sorted.</p>
+                            <span class="learn-more">Learn More &rarr;</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Phone Unlocking -->
+                <a href="phone-unlocking.html" class="service-card-link">
+                    <div class="service-card" style="background-image: linear-gradient(rgba(17, 17, 17, 0.45), rgba(17, 17, 17, 0.75)), url('unlock-phone.jpg');">
+                        <div class="card-content">
+                            <h3>Phone Unlocking</h3>
+                            <p>Use any network, anywhere. Unlocked same day.</p>
+                            <span class="learn-more">Learn More &rarr;</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <!-- Laptop & Tablet Repair -->
+                <a href="laptop-tablet.html" class="service-card-link">
+                    <div class="service-card" style="background-image: linear-gradient(rgba(17, 17, 17, 0.45), rgba(17, 17, 17, 0.75)), url('circuit-board.jpg');">
+                        <div class="card-content">
+                            <h3>Laptop &amp; Tablet Repair</h3>
+                            <p>Screens, batteries, ports — we fix those too.</p>
+                            <span class="learn-more">Learn More &rarr;</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2>Why Choose Phone fix &amp; Vapes?</h2>
+                <div class="accent-divider"></div>
+            </div>
+            
+            <div class="why-us-grid reveal">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3>Express 20-Min Fix</h3>
+                    <p>We perform most screen and battery swaps on the spot within 20-30 minutes. Fast and hassle-free.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Certified Components</h3>
+                    <p>We desolder and replace parts using premium-grade spares. All repairs include a standard store warranty.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fa-solid fa-store"></i></div>
+                    <h3>All-in-One Convenience</h3>
+                    <p>Get your phone repaired while you browse our huge select collections of accessories, cases, and disposable vapes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vapes Teaser -->
+    <section class="vapes-teaser">
+        <div class="container vapes-teaser-grid">
+            <div class="vapes-teaser-content reveal">
+                <span class="section-subtitle">Vapes &amp; Nicotine Pouches</span>
+                <h2>Official ELFBAR, Lost Mary, and IVG Partner</h2>
+                <p>We stock Ealing's most complete range of disposable vapes, premium juices, and nicotine pouches (ZYN, Velo, Pablo, Nordic Spirit). Order directly on Deliveroo or visit our store.</p>
+                <div style="display:flex; gap: 16px; align-items:center; flex-wrap:wrap;">
+                    <a href="vapes-pouches.html" class="btn btn-primary">Browse Vapes &rarr;</a>
+                    <span class="deliveroo-tag"><i class="fa-solid fa-motorcycle"></i> Order on Deliveroo</span>
+                </div>
+                <p class="disclaimer-text" style="margin-top: 15px;">Nicotine products are strictly for adults aged 18+ only. Challenge 25 policy applies.</p>
+            </div>
+            <div class="vape-brand-anchors reveal">
+                <img src="Lost Mary reuse.jpg" alt="Lost Mary" class="teaser-brand-img">
+                <img src="IVG Reuse 1.jpg" alt="IVG" class="teaser-brand-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Phones Teaser -->
+    <section class="phones-teaser">
+        <div class="container phones-teaser-grid">
+            <div class="phone-anchors-grid reveal">
+                <div class="phone-item-card"><img src="Iphone 17 pro max.webp" alt="iPhone"><span>iPhone</span></div>
+                <div class="phone-item-card"><img src="Samsung s26 ultra.webp" alt="Samsung"><span>Samsung</span></div>
+                <div class="phone-item-card"><img src="Google Pixel 10a.webp" alt="Pixel"><span>Pixel</span></div>
+            </div>
+            <div class="phones-teaser-content reveal">
+                <span class="section-subtitle">Device Trading</span>
+                <h2>Refurbished Handsets &amp; Trade-Ins</h2>
+                <p>We sell certified pre-owned smartphones that are thoroughly tested and cleaned. Got an old phone? Bring it in and we'll offer you a fair price for cash or trade-in credit.</p>
+                <a href="phones-in-store.html" class="btn btn-primary">Browse Phones &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2>Highly Rated in West Ealing</h2>
+                <p class="subheading">Read real client reviews from our local Google listing page.</p>
+                <div class="accent-divider"></div>
+            </div>
+            
+            <div class="reviews-grid reveal">
+                <div class="review-card">
+                    <p class="review-text">"Screen repair on IPhone 12pro - Absolutely amazing service, quick professional quality work. Great communication, great prices very happy with the result. Thank you"</p>
+                    <div class="review-author">
+                        <span>Kirstie Jones</span>
+                        <span class="stars"><i class="fa-solid fa-star"></i> 5/5</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <p class="review-text">"I got my phone and my laptop fixed Ricky fixed them within the hour with great customer service, would definitely recommend!"</p>
+                    <div class="review-author">
+                        <span>Mahad Isse</span>
+                        <span class="stars"><i class="fa-solid fa-star"></i> 5/5</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <p class="review-text">"I came to the shop, fix my phone in 20 minutes also offered me a great price on another phone."</p>
+                    <div class="review-author">
+                        <span>Joey Ahmed</span>
+                        <span class="stars"><i class="fa-solid fa-star"></i> 5/5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta text-center reveal" style="background-image: linear-gradient(rgba(17, 17, 17, 0.75), rgba(17, 17, 17, 0.85)), url('storefront-interior.webp');">
+        <div class="container">
+            <h2>Fast Diagnostics &amp; Immediate Repairs</h2>
+            <p>Visit our store on Uxbridge Road, West Ealing, or speak directly to Ricky and the team.</p>
+            <a href="tel:07399440825" class="btn btn-primary btn-large"><i class="fa-solid fa-phone"></i> Call 07399 440 825</a>
+        </div>
+    </section>
+
+    <!-- Shared Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">PHONE FIX <span class="primary-text">&amp; VAPES</span></a>
+                    <p>Professional mobile phone, laptop, and iPad repair specialists. Located on Uxbridge Road, West Ealing. Same-day diagnostics & repairs. Order convenience vapes on Deliveroo.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <p>
+                        <a href="screen-repair.html">Screen Repair</a> &middot; 
+                        <a href="battery-replacement.html">Battery Replacement</a> &middot; 
+                        <a href="water-damage.html">Water Damage</a> &middot; 
+                        <a href="charging-port.html">Charging Port</a> &middot; 
+                        <a href="phone-unlocking.html">Unlocking</a> &middot; 
+                        <a href="laptop-tablet.html">Laptop &amp; Tablet</a>
+                    </p>
+                </div>
+                <div class="footer-hours">
+                    <h4>Opening Hours</h4>
+                    <ul>
+                        <li>Monday - Saturday: 9:00 am &ndash; 8:30 pm</li>
+                        <li>Sunday: 10:00 am &ndash; 8:00 pm</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Call us</h4>
+                    <p class="phone-num"><a href="tel:07399440825">07399 440 825</a></p>
+                    <p class="address-text" style="margin-top: 15px;">191 Uxbridge Rd, London W13 9AA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Phone fix &amp; Vapes 2026. All rights reserved.</p>
+                <p class="agency-credit">Website by CollabCreate Marketing &mdash; <a href="http://localhost:8080/index.html">Back to Demo Hub</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="Enlarged gallery view">
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+
+    <!-- Core JavaScript -->
+    <script>
+        // Hamburger toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.querySelector('i').classList.toggle('fa-bars');
+            hamburger.querySelector('i').classList.toggle('fa-xmark');
+        });
+
+        // Intersection Observer Scroll Animations
+        const revealElements = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    obs.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.15 });
+        revealElements.forEach(el => observer.observe(el));
+
+        // Lightbox functionality
+        function openLightbox(src, caption) {
+            const lightbox = document.getElementById('lightbox');
+            const img = document.getElementById('lightbox-img');
+            const cap = document.getElementById('lightbox-caption');
+            
+            img.src = src;
+            cap.innerHTML = caption;
+            lightbox.classList.add('active');
+            
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    </script>
+</body>
+</html>
