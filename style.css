@@ -1204,6 +1204,8 @@ h1, h2, h3, h4 {
 }
 
 @media (max-width: 768px) {
+    .services-grid { grid-template-columns: 1fr !important; }
+
     .hamburger { display: block; }
     .nav-links {
         display: none;
@@ -1226,4 +1228,19 @@ h1, h2, h3, h4 {
     .footer-hours ul { align-items: center; }
     .footer-bottom { flex-direction: column; text-align: center; }
     .pouches-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Fix Phone Unlocking Hero positioning on Mobile */
+@media (max-width: 768px) {
+    .phone-unlock-hero {
+        background-position: center 25% !important;
+    }
+}
+
+/* Prevent cropping of battery screenshots in hero journey on Mobile */
+@media (max-width: 768px) {
+    .battery-gallery img {
+        object-fit: contain !important;
+        background-color: var(--bg-alternate) !important;
+    }
 }
